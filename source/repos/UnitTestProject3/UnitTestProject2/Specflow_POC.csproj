@@ -75,26 +75,16 @@
     <Compile Include="..\..\UnitTestProject2\UnitTestProject2\Steps\AppbuilderServiceSteps.cs">
       <Link>Steps\AppbuilderServiceSteps.cs</Link>
     </Compile>
-    <Compile Include="Feature\SpecFlowFeature1.feature.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SpecFlowFeature1.feature</DependentUpon>
-    </Compile>
     <Compile Include="Feature\appbuilder.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>appbuilder.feature</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Steps\SpecFlowFeature1Steps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
       <SubType>Designer</SubType>
-    </None>
-    <None Include="Feature\SpecFlowFeature1.feature">
-      <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>SpecFlowFeature1.feature.cs</LastGenOutput>
     </None>
     <None Include="Feature\appbuilder.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
